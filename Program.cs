@@ -10,7 +10,7 @@ using System.Collections.Generic;
 
         public void ImprimeEnConsola()
         {
-        Console.WriteLine("Hola soy {0} y me apellido {1} envíame un correo a {2}",nombre,apellido,correo);
+        Console.WriteLine("Hola yo soy {0} y me apellido {1} envíame un correo a {2}",nombre,apellido,correo);
         }
 
     }
@@ -24,7 +24,7 @@ using System.Collections.Generic;
         Alumno ana = new Alumno();
         ana.nombre = "Ana";
         ana.apellido = "Li";
-        ana.correo = "ana@gmail.com";
+        ana.correo = "ALi@gmail.com";
 
         Alumno John = new Alumno();
         John.nombre = "John";
